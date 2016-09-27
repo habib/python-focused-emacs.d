@@ -33,6 +33,9 @@
 (load-theme 'material t) ;; load material theme
 (global-linum-mode t) ;; enable line numbers globally
 
+;; Add relative-line-numbers if you feel like it
+;;(global-relative-line-numbers-mode)
+
 (elpy-enable)
 
 (when (require 'flycheck nil t)
